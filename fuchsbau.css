@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'gt_walsheimthin';
+    src: url('gt-walsheim-thin-web-webfont.eot');
+    src: url('gt-walsheim-thin-web-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gt-walsheim-thin-web-webfont.woff') format('woff'),
+         url('gt-walsheim-thin-web-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+	  margin: 0;
+	  padding: 0;
+	  font-family: 'gt_walsheimthin','helvetica' ;
+	  font-size: 14px;
+	  letter-spacing:0.01em;
+	  line-height:1.5em;
+	  color: #000000;
+
+      }
+
+
+
+ a:link { text-decoration:underline; color:#90b6b6;  }
+ a:visited { text-decoration:underline; color:#90b6b6; }
+ a:hover { text-decoration:underline; color:#90b6b6; }
+ a:active { text-decoration:underline; color:#90b6b6; }
+ 
+
+#centerrahmen {
+width: 100%;
+  border-left-width:20px;
+  border-left-style:solid;
+  border-left-color:#b1bebe;
+  border-right-width:20px;
+  border-right-style:solid;
+  border-right-color:#b1bebe;
+  border-top-width:20px;
+  border-top-style:solid;
+  border-top-color:#b1bebe;
+  border-bottom-width:20px;
+  border-bottom-style:solid;
+  border-bottom-color:#b1bebe;
+
+}	
+
+.rotup {
+	color: #cd6250;
+	text-transform:uppercase;
+	font-family: 'gt_walsheimthin','helvetica' ;
+	letter-spacing:0.1em;
+	}
+	
+.rotsmall {
+	color: #e5554c;
+	font-family: 'gt_walsheimthin','helvetica' ;
+	}
+	
+	
+.blausmall {
+	color: #90b6b6;
+	font-family: 'gt_walsheimthin','helvetica' ;
+	}	
+	
+.versalien {
+	text-transform:uppercase;
+	font-family: 'gt_walsheimthin','helvetica' ;
+	letter-spacing:0.1em;
+	}
+	
+.versalienblau {
+	text-transform:uppercase;
+	font-family: 'gt_walsheimthin','helvetica' ;
+	letter-spacing:0.1em;
+	color: #90b6b6;
+
+	}	
+	
+.small {
+	font-size: 12px;
+	font-family: 'gt_walsheimthin','helvetica' ;
+	}		
+	
+#rahmen {
+  border-left-width:20px;
+  border-left-style:solid;
+  border-left-color:#b1bebe;
+  border-right-width:20px;
+  border-right-style:solid;
+  border-right-color:#b1bebe;
+  border-top-width:20px;
+  border-top-style:solid;
+  border-top-color:#b1bebe;
+  
+
+}
+
+#rahmenleer {
+	height:99%;
+  border-left-width:20px;
+  border-left-style:solid;
+  border-left-color:#b1bebe;
+  border-right-width:20px;
+  border-right-style:solid;
+  border-right-color:#b1bebe;
+  border-top-width:20px;
+  border-top-style:solid;
+  border-top-color:#b1bebe;
+  border-bottom-width:20px;
+  border-bottom-style:solid;
+  border-bottom-color:#b1bebe;
+
+}
